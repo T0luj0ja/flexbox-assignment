@@ -1,0 +1,90 @@
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    border-radius: 90%;
+    font-size: 15px;
+
+    
+}
+.container{
+    width:80% ;
+    height: 600px;
+    display: flex;
+   flex-direction: row;
+   /* flex-wrap: wrap; */
+   justify-content: center;
+   align-content: center;
+  border-radius: 90%;
+   padding: 10px;
+   margin:  50px;
+   margin-left: 12%;
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: 15px;
+   border-top: 20px;
+  
+   
+   
+}  
+.sedans{
+    height: auto;
+    width: 100%;
+    background-color:  hsl(31, 77%, 52%);
+    padding: 50px;   
+}
+.sedans input{
+    color: hsl(31, 77%, 52%);
+    margin-top: 107px;
+}
+    
+.suvs{
+    height: auto;
+    width: 100%;
+    background-color:  hsl(184, 100%, 22%);
+    padding: 50px;
+}
+.suvs input{
+    color: hsl(184, 100%, 22%);
+}
+.luxury{
+    height: auto;
+    width: 100%;
+    background-color: hsl(179, 100%, 13%) ;
+    padding: 50px;  
+}
+.luxury input{
+    color: hsl(179, 100%, 13%);
+}
+input{
+    border-radius: 50px;
+    border-color: transparent;
+    /* display: flex; */
+    margin-top: 90px;
+    padding: 10px 20px;
+    font-family: 'Lexend Deca', sans-serif;    
+}
+input:hover{
+    cursor: pointer;
+}
+p {
+    color:hsla(0, 0%, 100%, 0.75)
+}
+h1{
+   color: hsl(0, 0%, 95%);
+   font-family:'Big Shoulders Display', cursive;
+padding: 10px;}
+
+@media only screen and (max-width :768px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width:50%;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 40px 25%;
+    }
+ 
+}
